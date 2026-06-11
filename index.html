@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quoting Trump | Political Quote Merch</title>
+  <meta name="description" content="Quoting Trump ecommerce storefront for mugs, tees, hoodies, hats, phone cases, and custom quote merchandise." />
+  <link rel="preconnect" href="https://quotingtrump.com" />
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <main>
+    <header class="site-header">
+      <a href="#top" class="brand" aria-label="Quoting Trump home"><span class="brand-mark">QT</span><span>Quoting Trump</span></a>
+      <nav id="site-nav" aria-label="Primary navigation">
+        <a href="#shop">Shop</a><a href="#quotes">Quotes</a><a href="#story">About</a><a href="#cart">Cart</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" aria-label="Search">⌕</button>
+        <a class="cart-pill" href="#cart" aria-label="View cart">🛒 <span id="cart-count">0</span></a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Officially unofficial political merch</p>
+        <h1>Real quotes. Loud products. Zero subtlety.</h1>
+        <p>Quoting Trump turns headline-making lines into mugs, tees, hoodies, hats, phone cases, and custom gifts with a premium ecommerce experience.</p>
+        <div class="hero-actions"><a class="primary" href="#shop">Shop new arrivals</a><a class="secondary" href="#quotes">Browse quotes</a></div>
+      </div>
+      <div class="hero-card">
+        <div class="badge">47th President Collection</div>
+        <div class="mock-product"><span>“I have the best words.”</span></div>
+        <p>Featured drop: color-changing quote mugs and debate-night conversation starters.</p>
+      </div>
+    </section>
+
+    <section class="trust-row" aria-label="Store promises">
+      <div><span class="promise-icon">🚚</span><b>Fast U.S. shipping</b><span>Tracked from cart to doorstep.</span></div>
+      <div><span class="promise-icon">🔒</span><b>Secure checkout</b><span>Designed for modern payment flows.</span></div>
+      <div><span class="promise-icon">⭐</span><b>Fresh drops</b><span>New quotes become new merch fast.</span></div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">New products</p><h2>Trump quotes on popular products</h2></div><p>Mugs, shirts, hoodies, hats, phone cases, and custom print-on-demand gifts inspired by QuotingTrump.com categories.</p></div>
+      <div class="filters" id="filters" aria-label="Product filters"></div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="quote-archive" id="quotes">
+      <div><p class="eyebrow">Quote archive</p><h2>Pick a line, build a product.</h2><p>Inspired by the QuotingTrump.com archive, the storefront supports quote-first shopping so customers can start with the line and choose the product after.</p></div>
+      <ul><li>“I alone can fix it.”</li><li>“Nobody knows more about trade than me.”</li><li>“We’re building a wall in Colorado.”</li><li>“Sharks — I’m not a fan.”</li></ul>
+    </section>
+
+    <section class="cart-panel" id="cart">
+      <div><p class="eyebrow">Your cart</p><h2 id="cart-title">Your cart is currently empty</h2><p>Shipping and discounts calculated at checkout.</p></div>
+      <div class="cart-items"><div id="cart-lines"></div><div class="subtotal"><span>Subtotal</span><strong id="subtotal">$0.00</strong></div><button class="checkout" id="checkout" disabled>Go to checkout</button></div>
+    </section>
+
+    <footer id="story"><div><b>Quoting Trump</b><p>Satirical ecommerce concept using QuotingTrump.com-inspired categories, copy, and sourced web asset references.</p></div><span>M.A.G.A — Make America Grope Again</span></footer>
+  </main>
+  <script type="module" src="src/store.js"></script>
+</body>
+</html>
